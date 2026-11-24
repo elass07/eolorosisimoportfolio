@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Elias A. Olorosisimo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <a href="#home" class="logo">ELIAS<span>.</span></a>
+    <ul class="nav">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li> 
+        <li><a href="work.html">My Work</a></li> 
+        <li><a href="#certificates">Certificates</a></li> 
+        <li><a href="#contact">Contact</a></li> 
+    </ul>
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <span class="badge">BS Information Technology</span>
+        <h1>Hi, It’s <span>Elias</span></h1>
+        <h2>A <span class="highlight">3rd Year Student</span></h2>
+        <p>BSIT – 3B at Filamer Christian University, Inc. | Work Student Assistant & Organizational Leader.</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/e.olorosisimo" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_heyyels/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/home" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://github.com/elass07" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+
+        <div class="btn-group">
+            <a href="#about" class="btn primary-btn">About Me</a>
+            <a href="#contact" class="btn outline-btn">Get in Touch</a>
+        </div>
+    </div>
+
+    <div class="img-box">
+        <div class="img-wrapper">
+            <img src="image/ORG CHART (8).png" alt="Elias Olorosisimo">
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-grid">
+            <div class="about-text card">
+                <h3>Who I Am</h3>
+                <p>Hello! I am <strong>Elias Olorosisimo</strong>, a motivated BS Information Technology student at Filamer Christian University with experience in administrative support, clerical operations, and organizational leadership.</p>
+                <p>Currently serving as a <strong>Work Student Assistant</strong> at the Community Engagement and Extension Services Office and <strong>Vice President</strong> of the Work Study Program Organization (previously Public Information Officer). Experienced in assisting clients, checking documents, encoding profiles, preparing organizational announcements, and creating publication materials.</p>
+            </div>
+
+            <div class="personal-info card">
+                <h3>Personal Information</h3>
+                <ul class="info-list">
+                    <li><span>Full Name:</span> Elias A. Olorosisimo</li>
+                    <li><span>Age:</span> 20</li>
+                    <li><span>Location:</span> Sitio Patag, Lawa-an, Roxas City, Capiz</li>
+                    <li><span>Course & Section:</span> BSIT – 3B</li>
+                    <li><span>Student ID No.:</span> 24-CCS1-0121</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="container">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-camera"></i>
+                <h3>Photography</h3>
+                <p>Event documentation, composition, and visual storytelling.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Basic HTML & CSS</h3>
+                <p>Structuring and styling clean, responsive web layouts.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-sliders"></i>
+                <h3>Photo & Video Editing</h3>
+                <p>Color grading, enhancement, and multimedia post-processing.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-pen-nib"></i>
+                <h3>Pubmat Design</h3>
+                <p>Creating engaging announcements, posters, and organizational graphics.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <p class="section-subtitle">Feel free to reach out for collaborations, organizational inquiries, or creative projects.</p>
+        
+        <div class="contact-grid">
+            <a href="mailto:eliasolorosisimo@gmail.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h4>Email</h4>
+                <p>eliasolorosisimo@gmail.com</p>
+            </a>
+            <a href="tel:09928756794" class="contact-card">
+                <i class="fas fa-phone"></i>
+                <h4>Phone</h4>
+                <p>09928756794</p>
+            </a>
+            <a href="https://www.facebook.com/e.olorosisimo" target="_blank" class="contact-card">
+                <i class="fab fa-facebook"></i>
+                <h4>Facebook</h4>
+                <p>Elias Olorosisimo</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Elias A. Olorosisimo. All Rights Reserved.</p>
+</footer>
+
+<script>
+    const servicesLink = document.getElementById('servicesItem');
+    const videoModal = document.getElementById('videoModal');
+    const closeBtn = document.querySelector('.close-btn');
+    const promoVideo = document.getElementById('promoVideo');
+
+    if (servicesLink && videoModal) {
+        servicesLink.addEventListener('click', (e) => {
+            e.preventDefault(); 
+            videoModal.style.display = 'flex';
+            setTimeout(() => videoModal.classList.add('open'), 10);
+            promoVideo.play(); 
+        });
+    }
+
+    const closeModal = () => {
+        if (!videoModal) return;
+        videoModal.classList.remove('open');
+        videoModal.style.display = 'none';
+        promoVideo.pause(); 
+        promoVideo.currentTime = 0; 
+    };
+
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    window.addEventListener('click', (e) => { if (e.target === videoModal) closeModal(); });
+</script>
+
+</body>
+</html>
